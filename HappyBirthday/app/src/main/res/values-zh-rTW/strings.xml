@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">生日快樂</string>
+    <string name="happy_birthday_lucas">生日快樂，路卡斯!!</string>
+    <string name="from_lucas">來自 路卡斯。</string>
+</resources>
