@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="Theme.TipTime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
-        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorPrimary">#465DD3</item>
+        <item name="colorPrimaryDark">#D38809</item>
+        <item name="colorOnPrimary">#0CF1E2</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
