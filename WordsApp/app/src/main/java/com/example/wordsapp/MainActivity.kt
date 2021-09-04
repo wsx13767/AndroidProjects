@@ -1,4 +1,4 @@
-package com.example.activitylifecycletest
+package com.example.wordsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
