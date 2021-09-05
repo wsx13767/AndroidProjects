@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button 1"
-        />
+        android:text="Button 1" />
+
+    <Button
+        android:id="@+id/buttonChangeIMG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chnage imgage" />
+
+    <Button
+        android:id="@+id/buttonProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show or hide progress" />
+
+    <Button
+        android:id="@+id/buttonAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Alert" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <!-- 進度條 -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

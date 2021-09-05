@@ -20,5 +20,8 @@ object ActivityCollector {
             }
         }
         activities.clear()
+
+        // 刪除所有activity
+//        android.os.Process.killProcess(android.os.Process.myPid())
     }
 }

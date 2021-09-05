@@ -15,5 +15,12 @@ class ThridActivity : BaseActivity() {
         button3.setOnClickListener {
             ActivityCollector.finishAll()
         }
+
+        button3_1.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
