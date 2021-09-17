@@ -38,3 +38,5 @@ Thread {
 | singleTask     | 如果已經create且還存在，就會直接拿來使用 |
 | singleInstance | 於新的task起一個activity，當返回時，返回至最後一個task的activity |
 
+### Fragment
+
